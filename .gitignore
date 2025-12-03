@@ -1,0 +1,19 @@
+# Ignore virtual environments
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Notebook auto-save
+.ipynb_checkpoints/
+
+# Data files (optional)
+*.csv
+*.tsv
+
+# MacOS system files
+.DS_Store

@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div6TQR94LWC3T187Y"></div>
+        <div class="lime top_div" id="top_divA0CBFMRQL1EAN1F"></div>
         
         <script>
-        var top_div = d3.select('#top_div6TQR94LWC3T187Y').classed('lime top_div', true);
+        var top_div = d3.select('#top_divA0CBFMRQL1EAN1F').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["NEGATIVE", "POSITIVE"], [0.0005524905282072723, 0.9994475245475769]);
+            var pp = new lime.PredictProba(pp_svg, ["NEGATIVE", "POSITIVE"], [0.9881370663642883, 0.011862942948937416]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["NEGATIVE", "POSITIVE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["not", 0.3394415762601074], ["bad", 0.28669217717826206], ["at", -0.05993009585147709], ["all", -0.04621688379974387], ["movie", -0.04263284111345774], ["This", -0.0337003451302629], ["is", -0.02663598728875807]], 1, exp_div);
+                exp.show([["terrible", -0.7070024049300282], ["great", 0.28398370393561806], ["was", -0.07259848934566024], ["half", -0.050826691572600724], ["The", -0.03687307930585516], ["first", 0.015555326547760286], ["second", 0.005172519874067943], ["the", 0.004100370325679625]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["not", 14, 0.3394415762601074], ["bad", 18, 0.28669217717826206], ["at", 22, -0.05993009585147709], ["all", 25, -0.04621688379974387], ["movie", 5, -0.04263284111345774], ["This", 0, -0.0337003451302629], ["is", 11, -0.02663598728875807]], 1, "This movie is not bad at all.", raw_div, true);
+            exp.show_raw_text([["terrible", 46, -0.7070024049300282], ["great", 19, 0.28398370393561806], ["was", 15, -0.07259848934566024], ["was", 42, -0.07259848934566024], ["half", 10, -0.050826691572600724], ["half", 37, -0.050826691572600724], ["The", 0, -0.03687307930585516], ["first", 4, 0.015555326547760286], ["second", 30, 0.005172519874067943], ["the", 26, 0.004100370325679625]], 1, "The first half was great, the second half was terrible.", raw_div, true);
             
         </script>
         </body></html>

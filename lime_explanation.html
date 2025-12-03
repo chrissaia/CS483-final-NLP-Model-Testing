@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divABRAXA2W5OS7TSF"></div>
+        <div class="lime top_div" id="top_divML9NQVDUEEQ6W5Y"></div>
         
         <script>
-        var top_div = d3.select('#top_divABRAXA2W5OS7TSF').classed('lime top_div', true);
+        var top_div = d3.select('#top_divML9NQVDUEEQ6W5Y').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["positive", "negative"], [0.01826624386012554, 0.9817337989807129]);
+            var pp = new lime.PredictProba(pp_svg, ["NEGATIVE", "POSITIVE"], [0.983534038066864, 0.016465989872813225]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["positive", "negative"]);
+            var exp = new lime.Explanation(["NEGATIVE", "POSITIVE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["approved", 0.5549062869210915], ["rebates", -0.1746309355533397], ["grants", 0.16211772062831004], ["for", -0.15848531367236965], ["expansion", 0.0929442822804951], ["and", 0.08773322752128668], ["September", 0.0354229551288991], ["35", -0.03475360606133835], ["the", 0.028217232249895554], ["city", 0.027099077917058387]], 1, exp_div);
+                exp.show([["t", -0.7697247857864863], ["like", 0.179640639210431], ["don", -0.09317324733181456], ["this", 0.05646068701449711], ["I", 0.028391203387900698], ["film", 0.026059760901364484]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["approved", 38, 0.5549062869210915], ["rebates", 67, -0.1746309355533397], ["grants", 79, 0.16211772062831004], ["for", 86, -0.15848531367236965], ["expansion", 94, 0.0929442822804951], ["and", 75, 0.08773322752128668], ["September", 28, 0.0354229551288991], ["35", 49, -0.03475360606133835], ["the", 90, 0.028217232249895554], ["city", 10, 0.027099077917058387]], 1, "Grapevine city officials in September approved $ 35 million in tax rebates and grants for the expansion .", raw_div, true);
+            exp.show_raw_text([["t", 6, -0.7697247857864863], ["like", 8, 0.179640639210431], ["don", 2, -0.09317324733181456], ["this", 13, 0.05646068701449711], ["I", 0, 0.028391203387900698], ["film", 18, 0.026059760901364484]], 1, "I don't like this film.", raw_div, true);
             
         </script>
         </body></html>

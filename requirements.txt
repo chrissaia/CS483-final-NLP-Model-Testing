@@ -1,0 +1,9 @@
+# Core dependencies
+torch
+transformers
+kagglehub
+pandas
+wordcloud
+lime
+tqdm
+scikit-learn

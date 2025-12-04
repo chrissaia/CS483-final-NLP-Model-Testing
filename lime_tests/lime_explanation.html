@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divRBBF976WND4V5EV"></div>
+        <div class="lime top_div" id="top_divN18QWL8GRNUVZ3X"></div>
         
         <script>
-        var top_div = d3.select('#top_divRBBF976WND4V5EV').classed('lime top_div', true);
+        var top_div = d3.select('#top_divN18QWL8GRNUVZ3X').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["NEGATIVE", "POSITIVE"], [0.9881370663642883, 0.011862942948937416]);
+            var pp = new lime.PredictProba(pp_svg, ["NEGATIVE", "POSITIVE"], [0.983534038066864, 0.016466006636619568]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["NEGATIVE", "POSITIVE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["terrible", -0.713815754534996], ["great", 0.2894262601639535], ["was", -0.06977562876051344], ["The", -0.04215096353249027], ["half", -0.03748620638399877], ["first", 0.02498438901891556], ["second", 0.01010043493560185], ["the", 0.0031589549567275113]], 1, exp_div);
+                exp.show([["t", -0.7572650909862966], ["like", 0.18787586589004718], ["don", -0.09459997705585878], ["this", 0.05687466167262073], ["film", 0.02851365178480578], ["I", 0.028259207795854738]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["terrible", 46, -0.713815754534996], ["great", 19, 0.2894262601639535], ["was", 15, -0.06977562876051344], ["was", 42, -0.06977562876051344], ["The", 0, -0.04215096353249027], ["half", 10, -0.03748620638399877], ["half", 37, -0.03748620638399877], ["first", 4, 0.02498438901891556], ["second", 30, 0.01010043493560185], ["the", 26, 0.0031589549567275113]], 1, "The first half was great, the second half was terrible.", raw_div, true);
+            exp.show_raw_text([["t", 6, -0.7572650909862966], ["like", 8, 0.18787586589004718], ["don", 2, -0.09459997705585878], ["this", 13, 0.05687466167262073], ["film", 18, 0.02851365178480578], ["I", 0, 0.028259207795854738]], 1, "I don't like this film.", raw_div, true);
             
         </script>
         </body></html>

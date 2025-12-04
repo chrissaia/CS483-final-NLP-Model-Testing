@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains code and data for a CS483 final project exploring the use of **LIME** (Local Interpretable Model‑agnostic Explanations) and **SHAP** (SHapley Additive exPlanations) to test a sentiment‑analysis model.  The goal is to better understand how a pre‑trained DistilBERT model makes predictions and to evaluate its behaviour under negation, sarcasm, spelling noise and fairness scenarios.  By combining model‑explainability tools with robustness tests we obtain actionable insights about the model’s strengths and weaknesses.
+This repository contains code and data for a CS483 final project exploring the use of **LIME** (Local Interpretable Model‑agnostic Explanations) to test a sentiment‑analysis model.  The goal is to better understand how a pre‑trained DistilBERT model makes predictions and to evaluate its behaviour under negation, sarcasm, spelling noise and fairness scenarios.  By combining model‑explainability tools with robustness tests we obtain actionable insights about the model’s strengths and weaknesses.
 
 ## Dataset
 

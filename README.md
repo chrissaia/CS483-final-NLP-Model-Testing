@@ -6,7 +6,7 @@ This repository contains code and data for a CS483 final project exploring the u
 
 ## Dataset
 
-The project uses the [Sentiment Analysis for Financial News](https://www.kaggle.com/ankurzing/sentiment-analysis-for-financial-news) dataset.  The code downloads the latest version via `kagglehub.dataset_download` and reads the data into `all-data.csv`:contentReference[oaicite:0]{index=0}.  Each record contains a piece of financial news text and a sentiment label (positive, negative or neutral).  Neutral entries are dropped so that the model learns to classify only positive and negative sentiments.  A small sample of the dataset is shown in `model_lime_test.ipynb`, where the first few rows illustrate the text and sentiment columns.
+The project uses the [Sentiment Analysis for Financial News](https://www.kaggle.com/ankurzing/sentiment-analysis-for-financial-news) dataset.  The code downloads the latest version via `kagglehub.dataset_download` and reads the data into `all-data.csv`.  Each record contains a piece of financial news text and a sentiment label (positive, negative or neutral).  Neutral entries are dropped so that the model learns to classify only positive and negative sentiments.  A small sample of the dataset is shown in `model_lime_test.ipynb`, where the first few rows illustrate the text and sentiment columns.
 
 ## Repository Structure
 

@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divRW2TK1FACUBHLF5"></div>
+        <div class="lime top_div" id="top_divL9ENYGUGHEG9JUJ"></div>
         
         <script>
-        var top_div = d3.select('#top_divRW2TK1FACUBHLF5').classed('lime top_div', true);
+        var top_div = d3.select('#top_divL9ENYGUGHEG9JUJ').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["NEGATIVE", "POSITIVE"], [0.9881370663642883, 0.011862942948937416]);
+            var pp = new lime.PredictProba(pp_svg, ["NEGATIVE", "POSITIVE"], [0.005844344384968281, 0.9941556453704834]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["NEGATIVE", "POSITIVE"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["terrible", -0.7019524716223475], ["great", 0.2770182434848047], ["was", -0.10032880602658469], ["The", -0.05385837294824991], ["half", -0.035249103230937086], ["second", 0.014298122667965985], ["first", -0.0019295457767633392], ["the", 0.0017131295942063932]], 1, exp_div);
+                exp.show([["a", 0.038437978404776196], ["is", 0.030066598973980962], ["doctor", -0.005783090395232023], ["He", 0.0013277718885239078]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["terrible", 46, -0.7019524716223475], ["great", 19, 0.2770182434848047], ["was", 15, -0.10032880602658469], ["was", 42, -0.10032880602658469], ["The", 0, -0.05385837294824991], ["half", 10, -0.035249103230937086], ["half", 37, -0.035249103230937086], ["second", 30, 0.014298122667965985], ["first", 4, -0.0019295457767633392], ["the", 26, 0.0017131295942063932]], 1, "The first half was great, the second half was terrible.", raw_div, true);
+            exp.show_raw_text([["a", 6, 0.038437978404776196], ["is", 3, 0.030066598973980962], ["doctor", 8, -0.005783090395232023], ["He", 0, 0.0013277718885239078]], 1, "He is a doctor.", raw_div, true);
             
         </script>
         </body></html>

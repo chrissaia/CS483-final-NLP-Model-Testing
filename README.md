@@ -1,4 +1,4 @@
-# CS483 Final Project: NLP Model Testing with LIME and SHAP
+# CS483 Final Project: NLP Model Testing with LIME 
 
 ## Overview
 
